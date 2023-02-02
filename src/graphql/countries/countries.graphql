@@ -2,9 +2,5 @@ query Countries {
   countries {
     code
     name
-    emoji
-    languages {
-      name
-    }
   }
 }
