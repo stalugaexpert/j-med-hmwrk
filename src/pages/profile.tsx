@@ -1,4 +1,4 @@
-import { CountryDocument } from '@/generated/graphql'
+import { CountryDocument } from '@/graphql/generated/graphql'
 import { useQuery } from '@apollo/client'
 import { CountryListItem, Header, SpinnerLoader } from '@components'
 import Head from 'next/head'

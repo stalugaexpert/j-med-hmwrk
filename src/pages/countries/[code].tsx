@@ -5,7 +5,7 @@ import {
   CountriesDocument,
   CountryDocument,
   CountryQuery,
-} from '@/generated/graphql'
+} from '@/graphql/generated/graphql'
 import { ArrowLeftIcon } from '@heroicons/react/24/solid'
 import Link from 'next/link'
 

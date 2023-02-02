@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { request } from 'graphql-request'
 import { CountriesList, Header } from '@components'
-import { CountriesDocument, CountriesQuery } from '@/generated/graphql'
+import { CountriesDocument, CountriesQuery } from '@/graphql/generated/graphql'
 
 export default function Countries({ countries }: CountriesQuery) {
   return (
