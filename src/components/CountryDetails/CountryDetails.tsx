@@ -1,4 +1,4 @@
-import { CountryQuery } from '@/generated/graphql'
+import { CountryQuery } from '@/graphql/generated/graphql'
 
 export const CountryDetails = ({ country }: CountryQuery) => {
   return (

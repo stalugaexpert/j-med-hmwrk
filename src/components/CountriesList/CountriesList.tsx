@@ -1,4 +1,4 @@
-import { CountriesQuery } from '@/generated/graphql'
+import { CountriesQuery } from '@/graphql/generated/graphql'
 import { CountryListItem } from '@components'
 import React from 'react'
 
