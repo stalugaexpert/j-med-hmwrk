@@ -4,8 +4,10 @@ import { CountryListItem, Header, SpinnerLoader } from '@components'
 import Head from 'next/head'
 
 export default function Profile() {
+  const countryCode = 'PL'
+
   const { data, error, loading } = useQuery(CountryDocument, {
-    variables: { code: 'PL' },
+    variables: { code: countryCode },
   })
 
   if (loading)
