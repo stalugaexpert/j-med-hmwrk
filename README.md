@@ -1,3 +1,5 @@
+One of the recruitment task which consisted of creating an application to fetch & display data about countries using three different rendering methods in Next.js - CSR, SSR and SSG - using graphQL and ensuring e2e type safety using graphql-codegen and apollo client.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Check the deployment under this link:
